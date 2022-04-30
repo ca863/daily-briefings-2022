@@ -74,6 +74,19 @@ APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.daily_brie
 ```
 
 
+### Web Application
+
+Running the web app (then view localhost:500 in the browser)
+
+To run the web app do the following in the command line:
+##### For Mac OS:
+```sh
+FLASK_APP=hello.py flask run
+```
+
+Once this is done, the message will pop up in the browser and the user can choose 
+
+
 ## Testing
 
 Running tests:
